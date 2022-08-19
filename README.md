@@ -18,7 +18,7 @@ protected:
     protocol* device;
 ```
 
-Then have overloaded constructors for each class member: 
+Then have overloaded constructors for each protocol: 
 ```cpp
 public:
     LSM6DS032(TwoWire *pipe, uint32_t freq) { // constructor for I2C protocol
