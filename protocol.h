@@ -9,6 +9,8 @@
 #include "SPI.h"
 // TODO: Add UART support?
 
+typedef unsigned int uint;
+
 byte getBit(byte bits, int bitIndex);
 void setBit(byte* bits, int bitIndex, int val);
 
